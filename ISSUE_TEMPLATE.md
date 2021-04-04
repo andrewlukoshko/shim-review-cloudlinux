@@ -9,7 +9,7 @@ Make sure you have provided the following information:
  - [v] any extra patches to grub via your own git tree or as files
  - [v] build logs
 
-Link to review: 
+Link to review:
 
 ###### What organization or people are asking to have this signed:
 Cloud Linux Software, Inc.
@@ -86,7 +86,8 @@ This is our first submission so no old grub2 binaries allowed.
 It is a "RHEL-like" implementation.
 
 ###### What is the origin and full version number of your bootloader (GRUB or other)?
-GRUB2 version 2.02-90.el8_3.1 from RHEL
+GRUB2 version 2.02-90.el8_3.1 from RHEL with CloudLinux OS 8 cert and SBAT.  
+Source RPM: https://github.com/cloudlinux/shim-review/raw/master/grub2-2.02-90.el8_3.1.cloudlinux.src.rpm
 
 ###### If your SHIM launches any other components, please provide further details on what is launched
 No

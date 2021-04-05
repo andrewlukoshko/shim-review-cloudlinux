@@ -29,7 +29,7 @@ We're a well known vendor with more than 4000 clients and more than 200,000
 product installations
 
 ###### How do you manage and protect the keys used in your SHIM?
-They're stored in an HSM.
+They're stored in an HSM token provided by Certification Authority.
 
 ###### Do you use EV certificates as embedded certificates in the SHIM?
 Yes

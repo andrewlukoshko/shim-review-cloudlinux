@@ -36,18 +36,20 @@ product installations
 -------------------------------------------------------------------------------
 Who is the primary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name:
-- Position:
-- Email address:
-- PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the Linux community:
+- Name: Leonid Kanter
+- Position: IT Director
+- Email address: lkanter@cloudlinux.com
+- PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the Linux community:  
+https://github.com/cloudlinux/shim-review/blob/master/lkanter.pub
 
 -------------------------------------------------------------------------------
 Who is the secondary contact for security updates, etc.
 -------------------------------------------------------------------------------
-- Name:
-- Position:
-- Email address:
-- PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the Linux community:
+- Name: Andrew Lukoshko
+- Position: Software Architect
+- Email address: alukoshko@cloudlinux.com
+- PGP key, signed by the other security contacts, and preferably also with signatures that are reasonably well known in the Linux community:  
+https://github.com/cloudlinux/shim-review/blob/master/alukoshko.pub
 
 -------------------------------------------------------------------------------
 Please create your shim binaries starting with the 15.4 shim release tar file:

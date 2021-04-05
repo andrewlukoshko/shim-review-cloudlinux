@@ -9,7 +9,7 @@ Make sure you have provided the following information:
  - [v] any extra patches to grub via your own git tree or as files
  - [v] build logs
 
-Link to review:
+Link to review: cloudlinux/shim-review@cloudlinux-shim-x86_64-20210405
 
 ###### What organization or people are asking to have this signed:
 Cloud Linux Software, Inc.
@@ -22,7 +22,9 @@ CloudLinux OS 8
 ###### This matches https://github.com/rhboot/shim/releases/tag/15.4 and contains
 ###### the appropriate gnu-efi source.
 ###### Please confirm this as the origin your shim.
-This starts with the shim 15.4 release tarball.
+This starts with the shim 15.4 release tarball.  
+Here is the review repo: cloudlinux/shim-review@cloudlinux-shim-x86_64-20210405  
+It includes `README.md`, both shim EFI binaries, `clsecureboot001.cer`, and the build logs `root.log` and `build.log`.
 
 ###### What's the justification that this really does need to be signed for the whole world to be able to boot it:
 We're a well known vendor with more than 4000 clients and more than 200,000

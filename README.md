@@ -232,3 +232,4 @@ Boot and relevant bug fixes.
 -------------------------------------------------------------------------------
 ### Add any additional information you think we may need to validate this shim.
 -------------------------------------------------------------------------------
+Previous review: https://github.com/rhboot/shim-review/issues/152

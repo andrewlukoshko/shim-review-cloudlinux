@@ -105,11 +105,13 @@ Old GRUB2 builds are disallowed to boot because they have generation 1 in SBAT.
 ### Is upstream commit [eadb2f47a3ced5c64b23b90fd2a3463f63726066 "lockdown: also lock down previous kgdb use"](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=eadb2f47a3ced5c64b23b90fd2a3463f63726066) applied?
 
 -------------------------------------------------------------------------------
-All of the following commits are present:
+The following commits are present:  
+1957a85b0032a81e6482ca4aab883643b8dae06e  
+75b0cea7bf307f362057cc778efe89af4c615354  
 
-1957a85b0032a81e6482ca4aab883643b8dae06e
-75b0cea7bf307f362057cc778efe89af4c615354
-eadb2f47a3ced5c64b23b90fd2a3463f63726066
+The following is not present in RHEL8 kernel yet which is upstream for CloudLinux:  
+eadb2f47a3ced5c64b23b90fd2a3463f63726066  
+But it built with CONFIG_KDB_DEFAULT_ENABLE=0x0 so it isn't vulnerable.
 
 And the configuration setting CONFIG_EFI_CUSTOM_SSDT_OVERLAYS is disabled.
 

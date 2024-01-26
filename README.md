@@ -287,4 +287,6 @@ Thanks.
 
 Previous reviews:  
 shim-15.4: https://github.com/rhboot/shim-review/issues/152  
-shim-15.6 (security contacts verification done here): https://github.com/rhboot/shim-review/issues/251  
+shim-15.6: https://github.com/rhboot/shim-review/issues/251
+
+Secondary security contact changed since last review and needs verification.
